@@ -10,7 +10,7 @@ z = os.getenv("USER_NAME")
 
 print(z) # reads the variable from the environment
 
-
+print("Welcome!")
 print("Rock, Paper, Scissors, Shoot!")
 
 
