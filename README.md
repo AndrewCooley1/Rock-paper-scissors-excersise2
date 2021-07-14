@@ -1,9 +1,8 @@
 # Rock-paper-scissors-excersise2
-Rock Paper Scissors Second portion
 
-#Welcome, you will need to execute the following items in order to play the rock, paper, scissors game.
+Welcome, you will need to execute the following items in order to play the rock, paper, scissors game.
 
-##Installation
+# Installation
 Please fork this [remote repository](https://github.com/AndrewCooley1/Rock-paper-scissors-excersise2.git) under your own control, then "clone" or download your remote copy onto your local computer.
 
 Then navigate there from the command line (subsequent commands assume you are running them from the local repository's root directory):
@@ -29,7 +28,7 @@ After activating the virtual environment, install package dependencies (see the 
 pip install -r requirements.txt
 ```
 
-##Setup
+## Setup
 
 In the root directory of your local repository, create a new file called ".env", and update the contents of the ".env" file to specify your desired user_name (then make sure to SAVE the ".env" file aftwards): 
 

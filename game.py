@@ -10,9 +10,8 @@ z = os.getenv("USER_NAME")
 
 print(z) # reads the variable from the environment
 
-print("Welcome!")
+print("Welcome to")
 print("Rock, Paper, Scissors, Shoot!")
-
 
 #Ask for user input
 #source: https://docs.python.org/3/library/functions.html#input
@@ -41,12 +40,12 @@ valid_options = ["rock", "paper", "scissors"] #list
 
 c = random.choice(valid_options)
 print("Computer Chose:", c)
-#determine the winner
+#determine the winner of the game
 
 
 #determine if we won or lost
-#inspired by losely https://www.geeksforgeeks.org/python-if-else/#if-else
-#user picks rock
+#inspired by https://www.geeksforgeeks.org/python-if-else/#if-else
+#user picks rock, paper or signer VS computer random generation.
 if x == c:
     print("It's a tie, try again")
 elif x == "rock" and c == "paper":
@@ -60,5 +59,7 @@ elif x == "paper" and c == "scissors":
 elif x == "scissors" and c == "rock":
     print ("You lose! Sorry!")
 elif x == "scissors" and c == "paper":
-    print ("You win! Yay!")
+    print ("You win! Awesome!")
 
+
+print("Hope you come back soon!")
