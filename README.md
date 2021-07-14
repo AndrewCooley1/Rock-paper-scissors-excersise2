@@ -17,7 +17,7 @@ Use Anaconda to create and activate a new virtual environment, perhaps called "m
 conda create -n my-game-env python=3.8
 ```
 
-Please then activate this virtual enviroment
+Please then activate this virtual environment
 ```
 conda activate my-game-env
 ```
@@ -32,14 +32,14 @@ pip install -r requirements.txt
 
 In the root directory of your local repository, create a new file called ".env", and update the contents of the ".env" file to specify your desired user_name (then make sure to SAVE the ".env" file aftwards): 
 
-Please note "Jon Snow" is an example place holder. 
+Please note "Jon Snow" is an example place holder and should be replaced by the players name.
 
 ## Usage
 
-In order to run the game/Run the Python script:
+In order to run the game/Run the Python script, please execute the following:
 
 ```
 python game.py
 ```
 
-This assumes you are in the local enviroment and that you are currently in the necessary enviroment with the applicable package installed.
+This assumes you are in the local environment and that you are currently in the necessary environment with the applicable package installed.
